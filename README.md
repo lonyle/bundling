@@ -1,5 +1,6 @@
 # Download the data file
-	Due to storage issue, I did NOT put the data file into this repository. Please download from https://snap.stanford.edu/data/bigdata/amazon/amazon-meta.txt.gz
+	Due to storage issue, I did NOT put the data file into this repository. 
+	Please download from https://snap.stanford.edu/data/bigdata/amazon/amazon-meta.txt.gz
 	Then upzip it, put in the 'data/' folder as 'data/amazon_meta.txt'.
 
 # Prerequisite
@@ -14,10 +15,10 @@
 	├── data 								
 	│   ├── amazon-meta.txt					Amazon product co-purchasing dataset (from SNAP, Stanford)
 	│   └── amazon_price.json				prices of some products on Amazon (crawled from thetracktor.com)
-	├── determine_f.py						determine the parameter a in f(.)
-	├── exp_setting.py						bundle size settings
-	├── kbundle.py							Our bundling algorithm (Algorithm 3)
-	├── manifest.sh							!!! run all the experiments
+	├── determine_f.py					determine the parameter a in f(.)
+	├── exp_setting.py					bundle size settings
+	├── kbundle.py						Our bundling algorithm (Algorithm 3)
+	├── manifest.sh						!!! run all the experiments
 	├── n01_products_raw.py					
 	├── n02_products_copurchase_select.py
 	├── n03_copurchase_prob.py
@@ -27,6 +28,6 @@
 	├── n07_accuracy.py
 	├── n08_run_kbundle.py
 	├── n09_approximation_ratio.py
-	├── pi.py								$\pi(.)$ function
-	├── profit.py							calculate the profit of a bundling strategy
+	├── pi.py						$\pi(.)$ function
+	├── profit.py						calculate the profit of a bundling strategy
 	└── README
