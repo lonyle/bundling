@@ -1,3 +1,10 @@
+# Download the data file
+	Due to storage issue, I did NOT put the data file into this repository. Please download from https://snap.stanford.edu/data/bigdata/amazon/amazon-meta.txt.gz
+	Then upzip it, put in the 'data/' folder as 'data/amazon_meta.txt'.
+
+# Prerequisite
+	Some python packages need to be installed, including numpy, pandas, scipy, multiprocessing and cvxopt.
+
 # How to run
 	$ bash manifest.sh
 
